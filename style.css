@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.superior {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn1 button {
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+header {
+    padding: 30px 8%;
+}
+
+header > .superior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    display: inline-block;
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.08);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 17px;
+}
+
+
+
+header .btn1 button:hover {
+    box-shadow: 0px 0px 8px rgba(255, 255, 0, 0.582);
+}
+
+
+section.topo {
+    padding: 70px 4%;
+}
+
+section.topo .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo h1{
+    color: white;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.topo p {
+    color: white;
+    margin: 10px 0%;
+}
+
+.titlePage2 {
+    font-size: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.page2 .flex{
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.page2 h1{
+    padding: 40px 0;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.page2 p {
+    color: white;
+    margin: 10px 0%;
+}
+
+.myName{
+    color: yellow;
+}
+
+.imagemPage2 img{
+    max-width: 350px;
+    border-radius: 50%;
+    border: 10px solid yellow;
+}
+
+.links {
+    padding: 40px 0 40px 0;
+    display: flex;
+    gap: 25px;
+}
+
+.links a img {
+    max-width: 50px;
+}
+
+.titlePage3 {
+    font-size: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    padding: 40px 4%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    outline: none;
+}
+
+.card1 {
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow: rgba(88, 88, 88, 0.185) 0px 8px 24px;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card1:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    outline: none;
+}
+
+.card1 h1{
+    text-align: center;
+}
+
+.card1 p{
+    text-align: center;
+}
+
+.imgCard {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    max-width: 400px;
+}
+
+.btnCard{
+    margin: 10px 90px;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btnCard a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.projetosTitle {
+    color: white;
+    text-align: center;
+}
+
+.habiliCard img{
+    padding: 40px 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.paragrafinho {
+    padding: 5px 4% 40px 4%;
+    text-align: center;
+    color: white;
+}
+
+form {
+    padding: 40px 4%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70%;
+    gap: 12px;
+}
+
+form input, form select {
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 0;
+    height: 30px;
+    color: white;
+    outline: none;
+}
+
+form ::placeholder{
+    color: white;
+    padding: 0 1%;
+}
+
+form textarea {
+    resize: none;
+    max-width: 100%;
+    height: 120px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 0;
+    color: white;
+    outline: none;
+}
+
+form select{
+    color: white;
+    padding: 0,5%% 1%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.submitar {
+    color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 8px 3.5%;
+    font-size: 12px;
+    font-weight: 900;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100px;
+    outline: none;
+}
+
+.roda {
+    background-color: yellow;
+}
+
+.roda ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+
+.roda ul li a{
+    display: flex;
+    padding: 50px 4%;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.footer1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.roda p {
+    justify-content: center;
+    padding: 0px 4% 40px 4%;
+}
+
+.footerN {
+    font-weight: bold;
+}
+
+.linker {
+    display: flex;
+    width: 30px;
+}
